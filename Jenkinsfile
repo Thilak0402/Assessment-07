@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/Thilak0402/Assessment-07.git'
             }
         }
         stage('Show Parameter') {
